@@ -7,9 +7,12 @@ public class ProgramadorTasques {
 	
 	Tasques task = new Tasques();
 	
+	public ProgramadorTasques() {}
+	
 	
 	public ProgramadorTasques(Target vehicle) {
 		
+		task.setTarget(vehicle);
 		
 	}
 

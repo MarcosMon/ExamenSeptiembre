@@ -4,26 +4,28 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Tasques {
+	
+	Target vehicle = new Vehicle();
 
-	List<Filtre> tarea = new ArrayList();
+	List<Filtre> tareas = new ArrayList();
 
 	public Tasques() {
 	}
 
 	public List<Filtre> getTasques() {
 
-		return tarea;
+		return tareas;
 	}
 	
 	public Target getTarget() {
 		
 		
-		return null;
+		return this.vehicle;
 	}
 	
 	public void afegirTasca(Filtre tasca) {
 		
-		this.tarea.add(tasca);
+		this.tareas.add(tasca);
 		
 	}
 	
@@ -32,6 +34,8 @@ public class Tasques {
 	}
 
 	public void setTarget(Target target) {
+		
+		this.vehicle = target;
 		
 	}
 }
