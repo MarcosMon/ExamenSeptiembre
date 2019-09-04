@@ -2,6 +2,6 @@ package org.lasencinas.ExamenSep;
 
 public interface Target {
 
-	public void execucio(String recibido);
-	
+	public void execucio(String nombre);
+
 }

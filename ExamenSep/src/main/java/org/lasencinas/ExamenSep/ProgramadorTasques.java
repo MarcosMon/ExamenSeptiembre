@@ -27,14 +27,14 @@ public class ProgramadorTasques {
 		return task;
 	}
 
-	public void executarTasques(String tasca) {
+	public void executarTasques(String nombre) {
 
 		for (Filtre tarea : task.getTasques()) {
 
-			tarea.execucio(tasca);
+			tarea.execucio(nombre);
 		}
-		
-		task.getTarget().execucio(tasca);
+
+		task.getTarget().execucio(nombre);
 
 	}
 
