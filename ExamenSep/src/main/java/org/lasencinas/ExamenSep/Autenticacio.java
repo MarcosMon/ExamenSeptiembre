@@ -6,7 +6,7 @@ public class Autenticacio implements Filtre {
 
 	public void execucio(String recibido) {
 		
-		System.out.println("Autorización OK para Francesc" + recibido );
+		System.out.println("Autenticacio OK para " + recibido );
 
 		
 	}
