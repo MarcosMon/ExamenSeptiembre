@@ -5,22 +5,25 @@ import java.util.List;
 
 public class Tasques {
 
-	List<Filtre> tasca = new ArrayList();
+	List<Filtre> tarea = new ArrayList();
 
 	public Tasques() {
 	}
 
 	public List<Filtre> getTasques() {
 
-		return null;
+		return tarea;
 	}
 	
 	public Target getTarget() {
+		
 		
 		return null;
 	}
 	
 	public void afegirTasca(Filtre tasca) {
+		
+		this.tarea.add(tasca);
 		
 	}
 	
