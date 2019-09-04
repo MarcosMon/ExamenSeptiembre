@@ -32,6 +32,11 @@ public class ProgramadorTasques {
 	
 	public void executarTasques(String tasca) {
 		
+		for(Filtre tarea : task.getTasques()) {
+			
+			tarea.execucio(tasca);
+		}
+		
 		
 	}
 	
